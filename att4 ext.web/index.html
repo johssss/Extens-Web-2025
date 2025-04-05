@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Att4_Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <h2>Adicionar um item na tabela</h2>
+    <input type="text" id="nText" name="nText" placeholder="Digite um item">
+    <button onclick="adicionarItem()">Adicionar</button>
+    <br><br>
+    <label for="itemSelect">Selecione um item:</label>
+    <select id="itemSelect"></select>
+    <br><br>
+    <div>
+      <button onclick="marcarItem()">Marcar</button>
+      <button onclick="desmarcarItem()">Desmarcar</button>
+      <button onclick="removerItem()">Remover</button>
+    </div>
+    <br>
+    <table id="tabelaItens">
+        <tr>
+          <th>tabela de itens</th>
+        </tr>
+        <tbody></tbody>
+        </tr>
+      </table>
+      <br><br>
+</body>
+
+</html>
+<script src="script.js"></script>
